@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle 2</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+        }
+      
+        body {
+          background: #E3B52E;
+        }
+      
+        .container {
+          display: flex;
+          position: relative;
+          justify-content: center;
+        }
+        
+        .line {
+          width: 30px;
+          height: 100vh;
+          margin: 0px 15px;
+          background: #8C292A;
+        }
+      
+        .box {
+          background: #E3B52E;
+          border: 30px solid #8C292A;
+          height: 90px;
+          width: 90px;
+          transform: rotate(45deg);
+          align-self: center;
+          position: absolute;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

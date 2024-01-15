@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle 1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .container {
+        background: #0d004c;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .left {
+        position: relative;
+        top: 15px;
+      }
+
+      .right {
+        position: relative;
+        bottom: 15px;
+      }
+
+      .lefbox {
+        background: #b8b7cc;
+        height: 30px;
+        width: 120px;
+        margin: 30px 0;
+      }
+
+      .rightbox {
+        background: #b8b7cc;
+        height: 30px;
+        width: 120px;
+        margin: 30px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="lefbox"></div>
+        <div class="lefbox"></div>
+        <div class="lefbox"></div>
+      </div>
+      <div class="right">
+        <div class="rightbox"></div>
+        <div class="rightbox"></div>
+        <div class="rightbox"></div>
+      </div>
+    </div>
+  </body>
+</html>

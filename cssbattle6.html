@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle 6</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .yellow {
+        background: #f0cd48;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+      }
+
+      .container {
+        width: 400px;
+        height: 300px;
+        background: #f0cd48;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(135deg);
+      }
+
+      .redone,
+      .redtwo {
+        background: #d86f45;
+        height: 600px;
+        width: 100px;
+      }
+
+      .darkred {
+        background: #5f3829;
+        height: 100px;
+        width: 100px;
+        /* transform: rotate(135deg); */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="yellow">
+      <div class="container">
+        <div class="redone"></div>
+        <div class="darkred"></div>
+        <div class="redtwo"></div>
+      </div>
+    </div>
+  </body>
+</html>

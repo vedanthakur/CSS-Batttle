@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        
+        .main {
+          background-color: #E3516E;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .circle {
+          width: 200px;
+          height: 200px;
+          background: #F7F3D7;
+          border-radius: 50%;
+        }
+      
+        .top {
+          width: 200px;
+          height: 100px;
+          position: relative;
+          border-radius: 400px 400px 0 0;
+          overflow: hidden;
+        }
+      
+        .top-left {
+          width: 100px;
+          height: 100px;
+          background-color: #51B5A9;
+          position: absolute;
+          left: 0;
+        }
+      
+        .top-right {
+          width: 100px;
+          height: 100px;
+          background-color: #FADE8B;
+          position: absolute;
+          right: 0px;
+        }
+      
+        .bottom {
+          width: 200px;
+          height: 100px;
+          position: relative;
+          border-radius: 0 0 400px 400px;
+          overflow: hidden;
+        }
+      
+        .bottom-left {
+          width: 100px;
+          height: 100px;
+          background-color: #F7F3D7;
+          position: absolute;
+          left: 0;
+        }
+      
+        .bottom-right {
+          width: 100px;
+          height: 100px;
+          background-color: #E3516E;
+          position: absolute;
+          right: 0;
+          
+        }
+      </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="circle">
+            <div class="top">
+                <div class="top-left"></div>
+                <div class="top-right"></div>
+            </div>
+            
+            <div class="bottom">
+                <div class="bottom-left"></div>
+                <div class="bottom-right"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    
